@@ -1,0 +1,42 @@
+1.
+第二种只需要判断一次，第一种需要判断两次
+
+2.
+ch+1多1后使用ch，++ch先使用ch，在对ch+1
+
+3.
+H$i$!$
+$S$e$n$d$ $ct1 = 9, ct2 = 9
+
+4.
+a. weight >= 115 && weight < 125
+b. ch == 'q' || ch == 'Q'
+c. (x % 2 == 0) && (x != 26)
+d. (x % 2 == 0) && (x % 26 != 0)
+e. (donation >= 1000 && donation <= 2000) || (1 == guest)
+f. (ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')
+
+5.
+如果x是bool则相同，否则会发生类型转换而不同
+
+6.
+(x >= 0) ? x : -x
+
+7.
+switch(ch)
+{
+	case 'A' : a_grade++; break;
+	case 'B' : b_grade++; break;
+	case 'C' : c_grade++; break;
+}
+
+8.
+可以避免cin捕获不是int类型时导致的错误
+
+9.
+int line = 0;
+char ch;
+while (cin.get(ch) != 'Q')
+{
+	if (ch == '\n') line+;
+}

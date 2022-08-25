@@ -1,0 +1,37 @@
+1.
+in: for while
+out: do while
+
+2.
+01234
+
+
+3.
+0369
+12
+
+4.
+6
+8
+
+
+5.
+ k = 8
+
+6.
+for(int i = 1; i < 64; i*=2) {
+	cout << i << ", ";
+}
+cout << i << endl;
+
+7.
+use { ;  ;  ;}
+
+8.
+valid, x = 20
+valid, y = 1,024 --> (y = 1), 024 --> 024
+
+9.
+cin >> ch --> ignore blank char (enter tab blank)
+cin.get(char), ch = cin.get() --> save all chars
+

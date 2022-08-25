@@ -1,0 +1,25 @@
+#include <iostream>
+
+int main() {
+	using namespace std;
+
+	char animal[20] =  "bear";
+	const char *bird = "wren";
+	char *ps;
+
+	cout << "animal: " << animal << " and " << bird << endl;
+	cout << "enter a kind of animal " << endl;
+	cin >> animal;
+	cout << animal << endl;
+
+	ps  = animal;
+	cout << ps << endl;
+	cout << animal << " at " << (int *) animal << endl;
+	cout << ps << " at " << (int *) ps << endl;
+
+	cout << "After using strcpy\n";
+	ps = new char[strlen(animal) + 1];
+	strcpy(ps, animal);
+	
+return 0;
+}

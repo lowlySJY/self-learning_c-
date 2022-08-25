@@ -1,0 +1,20 @@
+#include <iostream>
+
+struct car {
+	string manu;
+	int date;
+};
+
+int main() {
+	using namespace std;
+	int car_num;
+	cout << "How many cars do you wish to catalog? ";
+	cin >> car_num;
+	cin.get();
+	car * pcar = new car[car_num];
+
+	
+
+
+	return 0;
+}

@@ -1,0 +1,91 @@
+1. char actor[30];
+short betsie[100];
+float chuck[13];
+long double dipsea[64];
+
+2. 
+#include <array>
+array<char, 30> actor;
+array<short, 100> betsie;
+array<float, 3> chuck;
+array<long double, 64> dipsea;
+
+3.
+int arr[5] = {1, 1,11, 1,1};
+
+4.
+int even;
+even = arr[0] + arr[4];
+
+5.
+float ideas[10];
+cout << ideas[1] << endl;
+
+6.
+char str[] = "cheeseburger";
+
+7.
+string str = "WaldorfSalad";
+
+8.
+struct fish {
+	char kind[20];
+	int weight;
+	float length;
+};
+
+9.
+struct fish {
+	char kind[20];
+	int weight;
+	float length;
+};
+fish s = {"ss", 29, 20.0};
+
+10.
+enum Respons {NO, Yes， Maybe};
+
+11.
+double ted;
+double * ted_pt = &ted;
+cout << *ted_pt << endl;
+
+12.
+float treacle[10];
+float * pt = treacle;
+cout << "treacle[0] = " << *pt
+     << "traecle[10] = " << pt[9] << endl;
+
+13.
+#include <vector>
+int size;
+cout << "Please enter a number: << end;
+cin >> size;
+int * pt = new int[size];
+vector<int> arr(size);
+
+14.
+有效，并打印字符串地址
+
+15.
+struct fish {
+	char kind[30];
+	int weight;
+	float length;
+};
+fish *pt = new fish;
+cout << pt->kind << pt->weight << pt->legnth << endl;
+
+16.
+除了初始的非空白字符，之后遇到空格就截取
+read from it until meet blank
+
+17.
+#include <string>
+#include <vector>
+#include <array>
+
+const int size = 10;
+std::vector<std::string> arr1(size);
+std::array<std::string, size> arr2;
+ 

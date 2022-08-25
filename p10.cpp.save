@@ -1,0 +1,26 @@
+#include <iosteam>
+#include <array>
+
+int main() {
+	using namespace std;
+
+	array<float, 3> arr;
+
+	cout << "enter records: " << endl;
+	cout << "1st record: ";
+	cin >> arr[0];
+	cout << "2sc record: ";
+	cin >> arr[1];
+	cout << "3rd record: ";
+	cin >> arr[2];
+
+	float mean = (arr[0] + arr[1] + arr[2]) / 3;
+
+	cout << "1st: " << arr[0] << endl;
+	cout << "2nd: " << arr[1] << endl;
+	cout << "3rd: " << arr[2] << endl;
+	cout << "average
+ of three records is: " << mean << endl;
+
+	return 0;
+}
